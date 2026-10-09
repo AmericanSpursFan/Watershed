@@ -1,0 +1,17 @@
+.Homepage {
+  background-color: lightblue;
+  margin: 50px;
+  padding-top: 0;
+}
+
+img {
+  display: block;
+  width: 100px;   /* 75% of original Canva size */
+  height: auto;
+  margin: 0;    /* no negative margin */
+}
+.FAQpage{background-image:url(FAQcanva.png);background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
