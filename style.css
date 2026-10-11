@@ -1,17 +1,56 @@
 .Homepage {
-  background-color: lightblue;
+  background-image:url(OceanBG.png);
+  background-size:cover;
   margin: 50px;
   padding-top: 0;
 }
 
-img {
+#Hbuttons img {
   display: block;
-  width: 100px;   /* 75% of original Canva size */
-  height: auto;
-  margin: 0;    /* no negative margin */
+  transform: scale(0.5);
+  margin: 0; 
+  position:relative;
+  z-index: 100;
+
 }
 .FAQpage{background-image:url(FAQcanva.png);background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
 
+background-size: 1528px 828px;
+}
+
+#Hfish
+{
+  position:absolute;
+  Top:50%;
+  Left:50%;
+  transform: translate(-50%,-50%) scale(1.25);
+ 
+
+}
+
+#Bubbles
+{
+  position:absolute;
+  Top:40%;
+  Left:27%;
+  transform: translate(-50%,-50%) scale(0.6);
+ 
+
+}
+
+#WatershedH1
+{
+  font-size: 64px;
+  text-align: center;
+  position:absolute;
+  bottom:85%;
+  left:50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  color:white;
+}
+
+.AboutPage
+{
+ background-color: lightskyblue;
 }
